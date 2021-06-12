@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/themoneyapp/test-web/compare/v1.1.1...v1.2.0) (2021-06-12)
+
+
+### Features
+
+* Add publish workflow ([a87961a](https://github.com/themoneyapp/test-web/commit/a87961a8c0f41bafeff5f489622d072672293516))
+* Add support for docker ([be42e23](https://github.com/themoneyapp/test-web/commit/be42e237451ed63703dcde9ef31ed515159b05b2))
+
 ## [1.1.1](https://github.com/themoneyapp/test-web/compare/v1.1.0...v1.1.1) (2021-06-12)
 
 
