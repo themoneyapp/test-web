@@ -90,6 +90,7 @@ dist
 
 # ReactJs build / generate output
 /build
+/release*
 
 # Gatsby files
 .cache/
