@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React Now
+          Learn React
         </a>
         <p>App Version: {process.env.REACT_APP_VERSION}</p>
       </header>
