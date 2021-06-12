@@ -1,0 +1,17 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    ["@semantic-release/exec", {
+      "publishCmd": "yarn run build && mv build release-${nextRelease.gitTag} && tar -zcf release.tar.gz release-${nextRelease.gitTag}"
+    }],
+    ["@semantic-release/github", {
+      "assets": [{"path": "release.tar.gz", "name": "release-${nextRelease.gitTag}.tar.gz"}]
+    }],
+    "@semantic-release/git"
+  ],
+  "tagFormat": "v${version}"
+}
