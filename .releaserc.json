@@ -9,10 +9,11 @@
       "publishCmd": "yarn run build && mv build release-${nextRelease.gitTag} && tar -zcf release.tar.gz release-${nextRelease.gitTag}"
     }],
     ["@semantic-release/git",{
-      "assets": [{"path": "release.tar.gz", "name": "release-${nextRelease.gitTag}.tar.gz"}],
       "message": "chore(release): ${nextRelease.gitTag} [skip ci]\n\n${nextRelease.notes}"
     }],
-    "@semantic-release/github"
+    ["@semantic-release/github",{
+      "assets": [{"path": "release.tar.gz", "name": "release-${nextRelease.gitTag}.tar.gz"}]
+    }]
   ],
   "tagFormat": "v${version}"
 }
