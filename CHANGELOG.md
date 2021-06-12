@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/themoneyapp/test-web/compare/v1.1.0...v1.1.1) (2021-06-12)
+
+
+### Bug Fixes
+
+* Update npm scripts to include `REACT_APP_VERSION` env ([2cbf17d](https://github.com/themoneyapp/test-web/commit/2cbf17d5e74b3124d912787f4996fc6d11a33668))
+
 # 1.0.0 (2021-06-12)
 
 
