@@ -4,6 +4,14 @@
 ### Features
 
 * Add basic create-react-app application ([dd47e4a](https://github.com/themoneyapp/test-web/commit/dd47e4adec657d15fef8a7a1ac74a160397b931a))
+* Add support for semantic-release ([20c9d88](https://github.com/themoneyapp/test-web/commit/20c9d88bfad3ea7b96c3ab4a63ce7be72b28b5ac))
+
+# 1.0.0 (2021-06-12)
+
+
+### Features
+
+* Add basic create-react-app application ([dd47e4a](https://github.com/themoneyapp/test-web/commit/dd47e4adec657d15fef8a7a1ac74a160397b931a))
 
 # 1.0.0 (2021-06-12)
 
