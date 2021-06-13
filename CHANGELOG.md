@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/themoneyapp/test-web/compare/v1.2.1...v1.2.2) (2021-06-13)
+
+
+### Bug Fixes
+
+* Fix Workflow ([19b0d00](https://github.com/themoneyapp/test-web/commit/19b0d00de61abbbbbd9848a742379119d1ea98fd))
+
 ## [1.2.1](https://github.com/themoneyapp/test-web/compare/v1.2.0...v1.2.1) (2021-06-12)
 
 
