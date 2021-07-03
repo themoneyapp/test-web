@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/themoneyapp/test-web/compare/v1.3.0...v1.3.1) (2021-07-03)
+
+
+### Bug Fixes
+
+* Push to all registries at once ([d5521ce](https://github.com/themoneyapp/test-web/commit/d5521ce9285ce559bcda6b4e628fd6a263e0300e))
+
 # [1.3.0](https://github.com/themoneyapp/test-web/compare/v1.2.3...v1.3.0) (2021-07-03)
 
 
