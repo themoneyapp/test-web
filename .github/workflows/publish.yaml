@@ -49,11 +49,5 @@ jobs:
           tags: |
             docker.io/themoneyapp/test-web:latest
             docker.io/themoneyapp/test-web:${{ steps.tag.outputs.tag }}
-
-      - name: Push Image to multiple registries
-        uses: akhilerm/tag-push-action@v1.0.0
-        with:
-          src: docker.io/themoneyapp/test-web:${{ steps.tag.outputs.tag }}
-          dst: |
             ghcr.io/${{ github.repository_owner }}/test-web:latest
             ghcr.io/${{ github.repository_owner }}/test-web:${{ steps.tag.outputs.tag }}
