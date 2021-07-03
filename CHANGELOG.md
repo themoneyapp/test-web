@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/themoneyapp/test-web/compare/v1.2.3...v1.3.0) (2021-07-03)
+
+
+### Bug Fixes
+
+* Update workflow ([eb0c6e3](https://github.com/themoneyapp/test-web/commit/eb0c6e3cc525b4235e8296c42354609793944c4f))
+
+
+### Features
+
+* Add support for dockerhub images ([8b9bedb](https://github.com/themoneyapp/test-web/commit/8b9bedbcc1a638d3535d2a0c583136e66db79779))
+
 ## [1.2.3](https://github.com/themoneyapp/test-web/compare/v1.2.2...v1.2.3) (2021-07-03)
 
 
