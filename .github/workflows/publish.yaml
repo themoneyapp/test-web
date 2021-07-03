@@ -31,10 +31,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Get tag
-      #   id: tag
-      #   uses: dawidd6/action-get-tag@v1
-
       - name: Get latest tag
         id: tag
         uses: actions-ecosystem/action-get-latest-tag@v1
